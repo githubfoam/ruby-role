@@ -5,13 +5,13 @@ package:
   ruby-full:
     installed: true
     versions:
-    - 1:2.5.1
+      - 1:2.5.1
 user:
   sdn:
     exists: true
     uid: 1000
     gid: 1000
     groups:
-    - sdn
+      - sdn
     home: /home/sdn
     # shell: /bin/bash
