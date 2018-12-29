@@ -11,12 +11,15 @@ services:
   - docker
 before_install:
   - sudo apt-get -qq update
+  # install goss
+  - curl -L https://goss.rocks/install | sudo sh
+  - goss --version
 install:
   - virtualenv --python=$(which python3.6) envmolecule
   # - virtualenv --python=$(which python2.7) envmolecule
   - source envmolecule/bin/activate
   - pip install -r requirements.txt
-  - curl -fsSL https://goss.rocks/install | sh
+  - curl -fsSL https://goss.rocks/install | sudo sh
 script:
   - molecule --version
   - goss --version
