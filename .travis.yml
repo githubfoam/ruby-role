@@ -16,8 +16,10 @@ install:
   # - virtualenv --python=$(which python2.7) envmolecule
   - source envmolecule/bin/activate
   - pip install -r requirements.txt
+  - curl -fsSL https://goss.rocks/install | sh
 script:
   - molecule --version
+  - goss --version
   # - molecule lint --scenario-name ${MOLECULE_SCENARIO}
   # - molecule destroy --scenario-name ${MOLECULE_SCENARIO}
   # - molecule dependency --scenario-name ${MOLECULE_SCENARIO}
