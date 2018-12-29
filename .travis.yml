@@ -12,8 +12,8 @@ services:
 before_install:
   - sudo apt-get -qq update
   # install goss
-  - curl -L https://goss.rocks/install | sudo sh
-  - goss --version
+  # - curl -L https://goss.rocks/install | sudo sh
+  # - goss --version
 install:
   - virtualenv --python=$(which python3.6) envmolecule
   # - virtualenv --python=$(which python2.7) envmolecule
