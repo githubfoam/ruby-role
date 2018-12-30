@@ -2,10 +2,6 @@ ruby
 =========
 
 
-Travis (.com) branch:
-[![Build Status](https://travis-ci.com/githubfoam/ruby-role.svg?branch=badges)](https://travis-ci.com/githubfoam/ruby-role)  
-Travis (.com) molecule travisci branch:
-[![Build Status](https://travis-ci.com/githubfoam/ruby-role?branch=travisci)](https://travis-ci.com/githubfoam/ruby-role)  
 
 
 
