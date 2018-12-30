@@ -15,8 +15,6 @@ services:
   - docker
 install:
 build_script:
-  # - sh: ./DockerRedHatAppveyor.sh
-  # - sh: ./DockerDebianAppveyor.sh
 test_script:
 # test scripts must be here
 # build: off
