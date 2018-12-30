@@ -5,17 +5,17 @@ branches:
   only:
     - appveyorbr
 image:
-  #- ubuntu1604
+  # - ubuntu1604
   - ubuntu1804
 environment:
-    distribution: centos
-    init: /usr/lib/systemd/systemd
-    version: 7
-    run_opts: "--privileged --volume=/sys/fs/cgroup:/sys/fs/cgroup:ro"
-  # - distribution: ubuntu
-  #   init: /lib/systemd/systemd
-  #   version: 1804
-  #   run_opts: "--privileged --volume=/sys/fs/cgroup:/sys/fs/cgroup:ro"
+  distribution: centos
+  init: /usr/lib/systemd/systemd
+  version: 7
+  run_opts: "--privileged --volume=/sys/fs/cgroup:/sys/fs/cgroup:ro"
+# - distribution: ubuntu
+#   init: /lib/systemd/systemd
+#   version: 1804
+#   run_opts: "--privileged --volume=/sys/fs/cgroup:/sys/fs/cgroup:ro"
 services:
   - docker
 install:
