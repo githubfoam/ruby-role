@@ -7,8 +7,8 @@ python:
 # safelist
 branches:
   only:
-  - master
-  - travisci
+    - master
+    - travisci
 env:
   - MOLECULE_SCENARIO=centos74-goss
   - MOLECULE_SCENARIO=centos74-testinfra
