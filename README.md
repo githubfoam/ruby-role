@@ -2,10 +2,10 @@ ansible-ruby-role
 =========
 
 
-Travis (.com) branch:
-[![Build Status](https://travis-ci.com/githubfoam/ruby-role.svg?branch=badges)](https://travis-ci.com/githubfoam/ruby-role)  
+Travis (.com)master branch:
+[![](https://img.shields.io/travis/com/githubfoam/ruby-role/master.svg)](https://travis-ci.com/githubfoam/ruby-role)
 Travis (.com) molecule travisci branch:
-[![Build Status](https://travis-ci.com/githubfoam/ruby-role?branch=travisci)](https://travis-ci.com/githubfoam/ruby-role)  
+[![](https://img.shields.io/travis/com/githubfoam/ruby-role/travisci.svg)](https://travis-ci.com/githubfoam/ruby-role)
 
 circleci branch:
 [![](https://img.shields.io/circleci/project/github/githubfoam/ruby-role/circleci.svg?style=plastic)](https://circleci.com/gh/githubfoam/ruby-role)
@@ -15,13 +15,6 @@ circleci branch:
 
 Playbook
 ----------------
-
-molecule testinfra/goss travisci:
-
-    - MOLECULE_SCENARIO=centos74-goss
-    - MOLECULE_SCENARIO=centos74-testinfra
-    - MOLECULE_SCENARIO=ubuntu1804-goss
-    - MOLECULE_SCENARIO=ubuntu1804-testinfra
 
 molecule testinfra/goss travisci:
 
