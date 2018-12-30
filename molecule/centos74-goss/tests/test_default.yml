@@ -2,10 +2,10 @@
 
 ---
 package:
-  ruby-full:
+  ruby:
     installed: true
     versions:
-      - 1:2.5.1
+      - 2.0.0.648
 user:
   sdn:
     exists: true
