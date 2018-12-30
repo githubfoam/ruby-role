@@ -20,8 +20,8 @@ services:
   - docker
 install:
 build_script:
-  - sh: ./DockerRedHatAppveyor.sh
-  - sh: ./DockerDebianAppveyor.sh
+  # - sh: ./DockerRedHatAppveyor.sh
+  # - sh: ./DockerDebianAppveyor.sh
 # docker is built
 # - 'sudo docker build --no-cache --rm --file=files/dockerfiles/Dockerfile.${distribution}-${version} --tag=${distribution}-${version}:ansible tests'
 # # ansible role is tested within the container
@@ -42,6 +42,6 @@ test_script:
 # test scripts must be here
 build: off
 # Notify Ansible Galaxy when an ansible role builds successfully.
-notifications:
-  - provider: Webhook
-url: https://galaxy.ansible.com/api/v1/notifications/
+# notifications:
+#   - provider: Webhook
+# url: https://galaxy.ansible.com/api/v1/notifications/
