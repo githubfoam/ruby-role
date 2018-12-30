@@ -1,4 +1,4 @@
-ruby
+ruby-role
 =========
 circleci branch:
 [![](https://img.shields.io/circleci/project/github/githubfoam/ruby-role/circleci.svg?style=plastic)](https://circleci.com/gh/githubfoam/ruby-role)
