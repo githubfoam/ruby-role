@@ -10,7 +10,7 @@ Travis (.com) molecule travisci branch:
 circleci branch:
 [![](https://img.shields.io/circleci/project/github/githubfoam/ruby-role/circleci.svg?style=plastic)](https://circleci.com/gh/githubfoam/ruby-role)
 
-
+[![](https://img.shields.io/ansible/role/35929.svg)](https://galaxy.ansible.com/githubfoam/ruby_role)    [![](https://img.shields.io/ansible/role/d/35929.svg)](https://galaxy.ansible.com/githubfoam/ruby_role)
 ----------------
 
 Playbook

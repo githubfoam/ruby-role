@@ -10,9 +10,9 @@ galaxy_info:
     - name: Ubuntu
       versions:
         - bionic
-    - name: Centos
+    - name: EL
       versions:
-        - centos74
+        - 7
   galaxy_tags:
     - ruby
     - testinfra
