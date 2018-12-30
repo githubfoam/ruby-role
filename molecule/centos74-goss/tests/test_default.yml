@@ -1,22 +1,17 @@
 # Molecule managed
 
 ---
-# file:
-#   /etc/hosts:
-#     exists: true
-#     owner: root
-#     group: root
-# package:
-#   ruby:
-#     installed: true
-#     versions:
-#       - 2.0.0.648
-# user:
-#   sdn:
-#     exists: true
-#     uid: 1000
-#     gid: 1000
-#     groups:
-#       - sdn
-#     home: /home/sdn
-#     shell: /bin/bash
+package:
+  ruby-full:
+    installed: true
+    versions:
+      - 1:2.5.1
+user:
+  sdn:
+    exists: true
+    uid: 1000
+    gid: 1000
+    groups:
+      - sdn
+    home: /home/sdn
+    # shell: /bin/bash
