@@ -25,8 +25,8 @@ script:
   - molecule dependency --scenario-name ${MOLECULE_SCENARIO}
   - molecule syntax --scenario-name ${MOLECULE_SCENARIO}
   - molecule create --scenario-name ${MOLECULE_SCENARIO}
-  # - molecule prepare --scenario-name ${MOLECULE_SCENARIO}
-  # - molecule converge --scenario-name ${MOLECULE_SCENARIO}
+  - molecule prepare --scenario-name ${MOLECULE_SCENARIO}
+  - molecule converge --scenario-name ${MOLECULE_SCENARIO}
   # - molecule side-effect --scenario-name ${MOLECULE_SCENARIO}
   # - molecule verify --scenario-name ${MOLECULE_SCENARIO}
   # - molecule destroy --scenario-name ${MOLECULE_SCENARIO}
