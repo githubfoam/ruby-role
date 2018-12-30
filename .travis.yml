@@ -21,9 +21,9 @@ install:
   - curl -fsSL https://goss.rocks/install | sudo sh
 script:
   - molecule lint --scenario-name ${MOLECULE_SCENARIO}
-  # - molecule destroy --scenario-name ${MOLECULE_SCENARIO}
-  # - molecule dependency --scenario-name ${MOLECULE_SCENARIO}
-  # - molecule syntax --scenario-name ${MOLECULE_SCENARIO}
+  - molecule destroy --scenario-name ${MOLECULE_SCENARIO}
+  - molecule dependency --scenario-name ${MOLECULE_SCENARIO}
+  - molecule syntax --scenario-name ${MOLECULE_SCENARIO}
   # - molecule create --scenario-name ${MOLECULE_SCENARIO}
   # - molecule prepare --scenario-name ${MOLECULE_SCENARIO}
   # - molecule converge --scenario-name ${MOLECULE_SCENARIO}
