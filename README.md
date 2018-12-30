@@ -3,7 +3,7 @@ ansible-ruby-role
 
 
 Travis (.com)master branch:
-[![](https://img.shields.io/travis/com/githubfoam/ruby-role/master.svg)](https://travis-ci.com/githubfoam/ruby-role)
+[![](https://img.shields.io/travis/com/githubfoam/ruby-role/master.svg)](https://travis-ci.com/githubfoam/ruby-role)  
 Travis (.com) molecule travisci branch:
 [![](https://img.shields.io/travis/com/githubfoam/ruby-role/travisci.svg)](https://travis-ci.com/githubfoam/ruby-role)
 
