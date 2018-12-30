@@ -42,6 +42,6 @@ test_script:
 # test scripts must be here
 build: off
 # Notify Ansible Galaxy when an ansible role builds successfully.
-notifications:
-  - provider: Webhook
-url: https://galaxy.ansible.com/api/v1/notifications/
+# notifications:
+#   - provider: Webhook
+# url: https://galaxy.ansible.com/api/v1/notifications/
