@@ -3,5 +3,5 @@
 - name: install ruby
   yum:
     name: ruby
-    state: latest
+    state: present
   when: ansible_distribution == 'CentOS'
