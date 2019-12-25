@@ -5,9 +5,6 @@ python:
   - "3.6"
   # - "2.7"
 # safelist
-branches:
-  only:
-    - dev
 env:
   - MOLECULE_SCENARIO=centos74-goss
   # - MOLECULE_SCENARIO=centos74-testinfra
