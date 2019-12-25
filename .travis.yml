@@ -7,9 +7,9 @@ python:
 # safelist
 env:
   # - MOLECULE_SCENARIO=centos74-goss
-  - MOLECULE_SCENARIO=centos74-testinfra
+  # - MOLECULE_SCENARIO=centos74-testinfra
   # - MOLECULE_SCENARIO=ubuntu1804-goss
-  # - MOLECULE_SCENARIO=ubuntu1804-testinfra
+  - MOLECULE_SCENARIO=ubuntu1804-testinfra
 services:
   - docker
 before_install:
