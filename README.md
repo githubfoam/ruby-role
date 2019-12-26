@@ -7,10 +7,6 @@ Travis (.com)master branch:
 Travis (.com) molecule travisci branch:
 [![](https://img.shields.io/travis/com/githubfoam/ruby-role/travisci.svg)](https://travis-ci.com/githubfoam/ruby-role)
 
-Circleci branch:
-[![](https://img.shields.io/circleci/project/github/githubfoam/ruby-role/circleci.svg?style=plastic)](https://circleci.com/gh/githubfoam/ruby-role)  
-AppVeyor branch:
-[![](https://img.shields.io/appveyor/ci/githubfoam/ruby-role/appveyorbr.svg?style=plastic)](https://ci.appveyor.com/project/githubfoam/ruby-role)
 
 [![](https://img.shields.io/ansible/role/35929.svg)](https://galaxy.ansible.com/githubfoam/ruby_role)    [![](https://img.shields.io/ansible/role/d/35929.svg)](https://galaxy.ansible.com/githubfoam/ruby_role)
 ----------------
